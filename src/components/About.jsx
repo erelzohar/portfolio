@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className="-mt-[6rem]">
+    <div className="mt-[1rem]">
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}>About me.</h2>
       </motion.div>

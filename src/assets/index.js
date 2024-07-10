@@ -1,7 +1,5 @@
-import bwmap from './backgrounds/bw-map.jpeg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
-import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 
@@ -41,7 +39,6 @@ import typescript from './tech/typescript.png';
 import matrix from './company/matrix.png';
 import kulalike from './company/kulalike.jpg';
 import ezwhitelogo from './company/ez-logo-white.png';
-import microverse from './company/microverse.png';
 
 import sweetworld from './projects/Capture-sweetworld.png';
 import donaroma from './projects/Capture-don-aroma.png';
@@ -53,10 +50,8 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
-  bwmap,
   nairobi,
   whiteabstract,
-  worldmap,
   logo,
   me,
   backend,
