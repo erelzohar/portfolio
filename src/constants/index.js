@@ -18,7 +18,7 @@ import {
   ezlines,
   donaroma,
   matrix,
-  math,
+  business,
   ezwhitelogo,
   kulalike,
   sql,
@@ -216,15 +216,15 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'A single-page calculator app built with React',
+    name: 'Web Business',
+    description: 'A single-page corporate website built with React',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'vite',
         color: 'green-text-gradient',
       },
       {
@@ -232,9 +232,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/erelzohar/math-magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: business,
+    repo: 'https://github.com/erelzohar/WebBusiness',
+    demo: 'https://github.com/erelzohar/WebBusiness',
   },
   {
     id: 'project-4',
