@@ -29,8 +29,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              A passionate Software Developer <br className="sm:block hidden" />
-              experienced in building Web applications, CRM and ERP systems, data structures and more.
+              A passionate software developer <br className="sm:block hidden" />
+              experienced in building web applications, CRM and ERP systems, data structures and more.
             </p>
           </div>
           <div
