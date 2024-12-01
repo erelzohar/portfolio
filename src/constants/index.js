@@ -2,7 +2,6 @@ import {
   frontend,
   backend,
   ux,
-  sweetworld,
   prototyping,
   javascript,
   typescript,
@@ -15,16 +14,15 @@ import {
   git,
   figma,
   docker,
-  ezlines,
-  donaroma,
   matrix,
-  business,
+  ichilov,
   ezwhitelogo,
   kulalike,
   sql,
   canva,
   angular,
-  mongo
+  mongo,
+  intersystems
 } from '../assets';
 
 export const navLinks = [
@@ -130,6 +128,10 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'Intersystems',
+    icon: intersystems,
+  },
 ];
 
 const experiences = [
@@ -137,7 +139,7 @@ const experiences = [
     title: 'Full-Stack Developer (Volunteering)',
     company_name: 'Kula Like',
     icon: kulalike,
-    iconBg: '#333333',
+    iconBg: '#ffffff',
     date: 'Oct 2021 - Dec 2021',
   },
   {
@@ -151,117 +153,18 @@ const experiences = [
     title: 'Backend Developer',
     company_name: 'Matrix',
     icon: matrix,
+    iconBg: '#ffffff',
+    date: 'Aug 2022 - Jul 2024',
+  },
+  {
+    title: 'Integration Engineer',
+    company_name: 'Tel-aviv medical center',
+    icon: ichilov,
     iconBg: '#333333',
-    date: 'Aug 2022 - Present',
+    date: 'Sep 2024 - Present',
   }
 ];
 
-const projects = [
-  {
-    id: 'project-1',
-    name: 'Don Aroma',
-    description: 'A custom designed E-commerce website including stock management system and secured payment.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: donaroma,
-    repo: 'https://github.com/erelzohar',
-    demo: 'https://donaroma-il.com/',
-  },
-  {
-    id: 'project-2',
-    name: 'EZ-lines',
-    description:
-      'A generic appointments system with monthly subscription fee.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: ezlines,
-    repo: 'https://github.com/erelzohar',
-    demo: 'https://ez-lines.com',
-  },
-  {
-    id: 'project-3',
-    name: 'Web Business',
-    description: 'A single-page corporate website built with React',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'vite',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: business,
-    repo: 'https://github.com/erelzohar/WebBusiness',
-    demo: 'https://github.com/erelzohar/WebBusiness',
-  },
-  {
-    id: 'project-4',
-    name: 'The Sweet World',
-    description: 'Birthday parties website made with React and Nodejs',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: sweetworld,
-    repo: 'https://github.com/erelzohar/the-sweet-world-front',
-    demo: 'https://github.com/erelzohar/the-sweet-world-front',
-  }
-];
 
-export { services, technologies, experiences, projects };
+
+export { services, technologies, experiences };

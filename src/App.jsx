@@ -6,7 +6,6 @@ import {
   Hero,
   Navbar,
   Tech,
-  Projects,
 } from './components';
 import SpeedDialComponent from './components/SpeedDialComponent';
 import SocialLinks from './components/SocialLinks';
@@ -27,8 +26,6 @@ const App = () => {
         <div className="bg-tech bg-cover bg-center bg-no-repeat pb-10">
           <Tech />
         </div>
-
-        <Projects />
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 

@@ -35,16 +35,12 @@ import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
+import intersystems from './tech/intersystems.webp';
 
 import matrix from './company/matrix.png';
 import kulalike from './company/kulalike.jpg';
 import ezwhitelogo from './company/ez-logo-white.png';
-
-import sweetworld from './projects/Capture-sweetworld.png';
-import donaroma from './projects/Capture-don-aroma.png';
-import ezlines from './projects/Capture-ez-lines.png';
-import business from './projects/webusiness.png';
-
+import ichilov from "./company/ichilov.jpg"
 
 export {
   nairobi,
@@ -58,7 +54,6 @@ export {
   github,
   close,
   download,
-  sweetworld,
   downloadHover,
   pineapple,
   pineappleHover,
@@ -77,14 +72,13 @@ export {
   redux,
   tailwind,
   typescript,
-  ezlines,
-  donaroma,
-  business,
   matrix,
   kulalike,
+  ichilov,
   ezwhitelogo,
   sql,
   canva,
   angular,
-  mongo
+  mongo,
+  intersystems
 };
