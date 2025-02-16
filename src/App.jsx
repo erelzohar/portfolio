@@ -15,8 +15,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="*" element={<div className="relative z-0">
+        <Route path="/" element={<div className="relative z-0">
           <div>
             <Navbar />
             <Hero />
@@ -47,6 +46,7 @@ const App = () => {
         </div>
         } />
 
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
       </Routes>
     </BrowserRouter>
