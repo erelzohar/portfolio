@@ -2,7 +2,7 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <div className='relative z-0'
+    <div
       style={{
         padding: '2rem',
         maxWidth: '800px',

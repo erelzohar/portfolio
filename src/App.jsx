@@ -6,10 +6,11 @@ import {
   Hero,
   Navbar,
   Tech,
+  SpeedDialComponent,
+  SocialLinks,
+  PrivacyPolicy
 } from './components';
-import SpeedDialComponent from './components/SpeedDialComponent';
-import SocialLinks from './components/SocialLinks';
-import PrivacyPolicy from './components/PrivacyPolicy';
+
 
 const App = () => {
   return (
