@@ -1,5 +1,3 @@
-import nairobi from './backgrounds/nairobi.png';
-import whiteabstract from './backgrounds/white-abstract.png';
 
 import logo from './logo/logo-black.png';
 
@@ -37,14 +35,9 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import intersystems from './tech/intersystems.webp';
 
-import matrix from './company/matrix.png';
-import kulalike from './company/kulalike.jpg';
-import ezwhitelogo from './company/ez-logo-white.png';
-import ichilov from "./company/ichilov.jpg"
+
 
 export {
-  nairobi,
-  whiteabstract,
   logo,
   me,
   backend,
@@ -72,10 +65,6 @@ export {
   redux,
   tailwind,
   typescript,
-  matrix,
-  kulalike,
-  ichilov,
-  ezwhitelogo,
   sql,
   canva,
   angular,

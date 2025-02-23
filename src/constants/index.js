@@ -14,10 +14,6 @@ import {
   git,
   figma,
   docker,
-  matrix,
-  ichilov,
-  ezwhitelogo,
-  kulalike,
   sql,
   canva,
   angular,
@@ -130,37 +126,8 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: 'Full-Stack Developer (Volunteering)',
-    company_name: 'Kula Like',
-    icon: kulalike,
-    iconBg: '#ffffff',
-    date: 'Oct 2021 - Dec 2021',
-  },
-  {
-    title: 'Full-Stack Developer',
-    company_name: 'Freelance',
-    icon: ezwhitelogo,
-    iconBg: '#333333',
-    date: 'Oct 2021 - Present',
-  },
-  {
-    title: 'Backend Developer',
-    company_name: 'Matrix',
-    icon: matrix,
-    iconBg: '#ffffff',
-    date: 'Aug 2022 - Jul 2024',
-  },
-  {
-    title: 'Integration Engineer',
-    company_name: 'Tel-aviv medical center',
-    icon: ichilov,
-    iconBg: '#333333',
-    date: 'Sep 2024 - Present',
-  }
-];
 
 
 
-export { services, technologies, experiences };
+
+export { services, technologies };

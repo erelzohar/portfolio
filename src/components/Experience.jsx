@@ -5,12 +5,50 @@ import {
 import { motion } from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from '../styles';
-import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
 import pdf from "../assets/Erel Zohar-CV.pdf"
 
+
+import matrix from '../assets/company/matrix.png';
+import kulalike from '../assets/company/kulalike.jpg';
+import ezwhitelogo from '../assets/company/ez-logo-white.png';
+import ichilov from "../assets/company/ichilov.jpg"
+
+
+
+
+const experiences = [
+  {
+    title: 'Full-Stack Developer (Volunteering)',
+    company_name: 'Kula Like',
+    icon: kulalike,
+    iconBg: '#ffffff',
+    date: 'Oct 2021 - Dec 2021',
+  },
+  {
+    title: 'Full-Stack Developer',
+    company_name: 'Freelance',
+    icon: ezwhitelogo,
+    iconBg: '#333333',
+    date: 'Oct 2021 - Present',
+  },
+  {
+    title: 'Backend Developer',
+    company_name: 'Matrix',
+    icon: matrix,
+    iconBg: '#ffffff',
+    date: 'Aug 2022 - Jul 2024',
+  },
+  {
+    title: 'Integration Engineer',
+    company_name: 'Tel-aviv medical center',
+    icon: ichilov,
+    iconBg: '#333333',
+    date: 'Sep 2024 - Present',
+  }
+];
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
