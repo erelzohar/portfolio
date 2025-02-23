@@ -33,7 +33,7 @@ import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
-import intersystems from './tech/intersystems.webp';
+// import intersystems from './tech/intersystems.webp';
 
 
 
@@ -69,5 +69,5 @@ export {
   canva,
   angular,
   mongo,
-  intersystems
+  // intersystems
 };

@@ -18,7 +18,7 @@ import {
   canva,
   angular,
   mongo,
-  intersystems
+  // intersystems
 } from '../assets';
 
 export const navLinks = [
@@ -120,10 +120,10 @@ const technologies = [
     name: 'docker',
     icon: docker,
   },
-  {
-    name: 'Intersystems',
-    icon: intersystems,
-  },
+  // {
+  //   name: 'Intersystems',
+  //   icon: intersystems,
+  // },
 ];
 
 
