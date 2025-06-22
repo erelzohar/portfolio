@@ -20,12 +20,12 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              EZ{' '}
+              Erel{' '}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Webs
+                Zohar
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
@@ -39,11 +39,11 @@ const Hero = () => {
         </div>
 
         <div>
-          <img
+          {/* <img
             className="absolute bottom-0 h-[75vh] ml-[50vw] lg:ml-[75vw] md:ml-[70vw] xmd:ml-[70vw] sm:ml-[50vw] 2xl:ml-[83vw]"
             src={me}
             alt="erel"
-          />
+          /> */}
         </div>
       </section>
     </>

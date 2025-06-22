@@ -21,21 +21,14 @@ import ichilov from "../assets/company/ichilov.jpg"
 
 const experiences = [
   {
-    title: 'Full-Stack Developer (Volunteering)',
-    company_name: 'Kula Like',
-    icon: kulalike,
-    iconBg: '#ffffff',
-    date: 'Oct 2021 - Dec 2021',
-  },
-  {
     title: 'Full-Stack Developer',
-    company_name: 'Freelance',
+    company_name: 'Ezwebs',
     icon: ezwhitelogo,
     iconBg: '#333333',
     date: 'Oct 2021 - Present',
   },
   {
-    title: 'Backend Developer',
+    title: 'Integration Engineer',
     company_name: 'Matrix',
     icon: matrix,
     iconBg: '#ffffff',
