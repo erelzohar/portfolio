@@ -12,7 +12,6 @@ import pdf from "../assets/Erel Zohar-CV.pdf"
 
 
 import matrix from '../assets/company/matrix.png';
-import kulalike from '../assets/company/kulalike.jpg';
 import ezwhitelogo from '../assets/company/ez-logo-white.png';
 import ichilov from "../assets/company/ichilov.jpg"
 
