@@ -8,7 +8,7 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
-import pdf from "../assets/Erel Zohar-CV.pdf"
+import pdf from "../assets/"
 
 
 import matrix from '../assets/company/matrix.png';
@@ -96,7 +96,7 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             contentStyle={{
               background: '#eaeaec',
               color: '#292929',
@@ -152,7 +152,7 @@ const Experience = () => {
                 w-[23px] h-[23px] object-contain"
               />
             </button>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </>
