@@ -39,15 +39,11 @@ const Hero = () => {
         </div>
 
         <div>
-<<<<<<< HEAD
           {/* <img
             className="absolute bottom-0 h-[75vh] ml-[50vw] lg:ml-[75vw] md:ml-[70vw] xmd:ml-[70vw] sm:ml-[50vw] 2xl:ml-[83vw]"
             src={me}
             alt="erel"
           /> */}
-=======
-          
->>>>>>> 69baf6f5f9c0e8135ca3db6826dcddad2dc35750
         </div>
       </section>
     </>
